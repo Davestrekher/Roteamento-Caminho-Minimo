@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Evil Empire";
+  src: url("EvilEmpire.otf");
+}
+
+.menu-vbox {
+  -fx-background-color: #353978;
+  -fx-padding: 15;
+  -fx-spacing: 10;
+}
+
+.simulacao-pane {
+  -fx-background-color: #eaeaea;
+}
+
+.check {
+  -fx-text-fill: white;
+  -fx-font-size: 13px;
+  -fx-cursor: hand;
+}
+
+.check .box {
+  -fx-background-color: #1b263b;
+  -fx-border-color: #778da9;
+  -fx-border-radius: 4;
+  -fx-background-radius: 4;
+}
+
+.check:selected .box {
+  -fx-background-color: #415a77;
+  -fx-border-color: white;
+}
+
+/* Fonte */
+.texto-grande-branco {
+  -fx-font-family: "Evil Empire";
+}
+
+.texto-grande-preto {
+  -fx-font-size: 36px;
+  -fx-font-weight: bold;
+  -fx-text-fill: black;
+}
+
+.texto-pequeno {
+  -fx-font-size: 13px;
+  -fx-text-fill: white;
+}
+
+.menu-bar {
+  -fx-background-color: linear-gradient(to bottom, #6ec6ff, #42a5f5);
+  -fx-padding: 5 10;
+}
+
+/* Menus (geral) */
+.menu {
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+}
+
+.menu:hover {
+  -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Texto dos menus */
+.menu .label {
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+}
+
+/* Menu de contexto */
+.context-menu {
+  -fx-background-color: #e3f2fd;
+  -fx-border-color: #90caf9;
+  -fx-border-radius: 5;
+  -fx-background-radius: 5;
+}
+
+/* Itens do menu */
+.menu-item {
+  -fx-text-fill: black;
+  -fx-padding: 5 15;
+}
+
+.menu-item .label {
+  -fx-text-fill: black;
+}
+
+.menu-item:focused,
+.menu-item:hover {
+  -fx-background-color: #90caf9;
+  -fx-text-fill: black;
+}
+
+/* Separador dos menus*/
+.separator .line {
+  -fx-border-color: #90caf9;
+}
+
+/* Menus */
+.custom-menu-item {
+  -fx-padding: 5 15;
+}
+
+.custom-menu-item .text {
+  -fx-fill: #0d47a1;
+}
+
+.custom-menu-item:hover {
+  -fx-background-color: #90caf9;
+}
+
+.custom-menu-item:hover .text {
+  -fx-fill: black;
+}
+
+/* Imagens como botoes */
+.image-button {
+  -fx-cursor: hand;
+
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0, 0, 2);
+
+  -fx-smooth: true;
+}
+
+.image-button:hover {
+  -fx-scale-x: 1.08;
+  -fx-scale-y: 1.08;
+
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 12, 0, 0, 4);
+}
+
+.image-button:pressed {
+  -fx-scale-x: 0.95;
+  -fx-scale-y: 0.95;
+
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 6, 0, 0, 2);
+}
+
+/* Linhas como botoes */
+.line-button {
+  -fx-cursor: hand;
+
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0, 0, 2);
+
+  -fx-smooth: true;
+}
+
+.line-button:hover {
+  -fx-scale-x: 1.15;
+  -fx-scale-y: 1.15;
+
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 12, 0, 0, 4);
+}
+
+.line-button:pressed {
+  -fx-scale-x: 1.10;
+  -fx-scale-y: 1.10;
+
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 6, 0, 0, 2);
+}
+
+/* botoes reais */
+.botao {
+  -fx-background-color: #353978; /* cor do botão */
+  -fx-text-fill: white;          /* texto branco */
+  -fx-font-family: "Evil Empire"; /* sua fonte */
+
+  -fx-font-size: 18px;
+
+  -fx-background-radius: 8;
+  -fx-padding: 12 24;
+
+  -fx-cursor: hand;
+}
+
+.botao:hover {
+  -fx-background-color: #2a2d63;
+}
+
+.botao:pressed {
+  -fx-background-color: #1f224a;
+}
