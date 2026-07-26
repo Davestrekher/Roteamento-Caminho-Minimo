@@ -2,7 +2,7 @@
 Simulação do algortimo de dijkstra para encontrar o caminho mínimo em um grafo sem arestas negativas.
 
 ## Requisitos
-Certifique que o JavaFX está instalado
+Certifique que o JavaFX está instalado no ambiente.
 
 ## Arquivo de configurações (backbone.txt)
 - Este arquivo determina o grafo utilizado para a simulação.
